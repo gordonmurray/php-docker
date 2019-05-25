@@ -42,3 +42,7 @@ Update 'tag' to 'latest'
 ## deploy app using helm
 
 > helm install --name php-hello-world ./php --set service.type=NodePort
+
+## Delete the deployment from Kube
+
+> helm delete --purge php-hello-world
