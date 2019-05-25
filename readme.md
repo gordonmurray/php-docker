@@ -1,5 +1,5 @@
 
-# Learn to deploy a PHP script to a local Kubernetes cluster using Helm
+# Deploy a PHP script to a local Kubernetes cluster using Helm
 
 
 ## Install micro k8s
