@@ -31,7 +31,7 @@
 
 ## create helm chart
 
-> helm create php
+> helm create php-hello-world
 
 ## update php/values.yml
 
@@ -41,7 +41,7 @@ Update 'tag' to 'latest'
 
 ## deploy app using helm
 
-> helm install --name php-hello-world ./php --set service.type=NodePort
+> helm install --name php-hello-world ./php-hello-world --set service.type=NodePort
 
 ## Delete the deployment from Kube
 
